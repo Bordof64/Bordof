@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  margin: 0;
+  padding: 0;
+}
+
+.headerContainer {
+  background-image: url("");
+  height: 500px;
+  background-size: cover;
+  padding: 20px;
+}
+
+.header img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.title {
+  color: #66fcf1;
+  margin-top: 30px;
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.nav a {
+  color: aquamarine;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  border: 2px solid rgb(31, 231, 31);
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.nav a:hover {
+  background-color: rgb(31, 231, 31);
+  color: black;
+  box-shadow: 0 0 10px #66fcf1;
+}
+
+
+.icons {
+  float: right;
+  margin-top: -100px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin-left: 20px;
+  background-color: rgb(31, 231, 31);
+  padding: 8px;
+  border: 2px solid black;
+}
+
+.icons a:hover {
+  background: black;
+  color: aqua;
+}
+
+.content {
+  padding: 30px;
+  background-color: #1f2833;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.content h2 {
+  color: #66fcf1;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1f2833;
+  color: #c5c6c7;
+}
+.header {
+  overflow: hidden;
+  transform: translate(0px, 50px);
+}
+
+
+.extra {
+  background-color: #1f2833;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.h1 {
+  color: #66fcf1;
+}
+.history {
+  padding: 30px;
+  background-color: #1f2833;
+  color: #c5c6c7;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.history h2 {
+  color: aquamarine;
+}
+.h1_2{
+  color: aquamarine;
+}
+
+.history img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.caption {
+  text-align: center;
+  font-size: 16px;
+  color: #66fcf1;
+  margin-top: 5px;
+  font-style: italic;
+}
+.history img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px #66fcf1;
+  transition: all 0.3s ease-in-out;
+}
